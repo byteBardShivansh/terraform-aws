@@ -3,3 +3,6 @@ resource "null_resource" "foobar" {
     command = "echo foobar"
   }
 }
+output "message" {
+  value = "foobar"
+}
