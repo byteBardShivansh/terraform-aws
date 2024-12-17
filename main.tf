@@ -1,8 +1,5 @@
-resource "null_resource" "foobar" {
+resource "null_resource" "terrateam_test" {
   provisioner "local-exec" {
-    command = "echo foobar"
+    command = "echo terrateam first run"
   }
-}
-output "message" {
-  value = "foobar"
 }
